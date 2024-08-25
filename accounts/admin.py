@@ -10,4 +10,5 @@ class CustomUserAdmin(UserAdmin):
     model = CustomUser
     add_form = UserCreationForm
     form = UserChangeForm
+    #fieldsets and add_fieldsets have to add here
 
